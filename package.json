@@ -1,0 +1,19 @@
+{
+	"name": "gpt-bot",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "bun --watch run ./src/index.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"grammy": "^1.21.1",
+		"mongoose": "^8.2.0",
+		"openai": "^4.28.0"
+	}
+}
